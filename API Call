@@ -27,17 +27,18 @@ class MyClass(GeneratedClass):
         import sys
         import urllib
         import requests
-
-        sys.path.append(os.path.join(self.behaviorAbsolutePath(), 'C:\Users\poxley\Weather API\requests'))
+        
+        #insert path to folder here
+        sys.path.append(os.path.join(self.behaviorAbsolutePath(), 'PATH'))
 
         #api_key to save API key
-        api_key = "7ea81be3a063f536c513530a78a324d5"
+        api_key = "API KEY"
 
         #base_url variable to store URL
         base_url = "http://api.openweathermap.org/data/2.5/weather?"
 
         #get city name
-        city_name = "surrey,ca"
+        city_name = "CITY NAME"
 
         #complete_url variable to store
         #complete URL address
